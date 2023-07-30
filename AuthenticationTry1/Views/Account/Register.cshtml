@@ -1,0 +1,9 @@
+﻿@using AuthenticationTry1.Models
+@model RegisterViewModel
+@using(Html.BeginForm("Register","Account",FormMethod.Post)){
+    <div class="form-group">
+
+        <label asp-for="Email" class="col-md-10"></label>
+        <input asp-for="Email" class="col-md-2 form-control">
+    </div>
+}
